@@ -1,0 +1,11 @@
+{
+  "name": "@remotelist/app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lachlan Hawthorne",
+  "license": "MIT",
+  "dependencies": {
+    "@remotelist/tsconfig": "*",
+    "@remotelist/ui": "*"
+  }
+}

@@ -14,10 +14,10 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@remotelist/core",
+            find: "@remotelist/ui",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/remotelist-core/"
+              "../../ui"
             ),
           },
         ],

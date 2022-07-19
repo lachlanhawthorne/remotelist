@@ -45,10 +45,10 @@ Using Turborepo simplifes managing your design system monorepo, as you can have 
 This Turborepo includes the following packages and applications:
 
 - `apps/docs`: Component documentation site with Storybook
-- `packages/@remotelist/core`: Core React components
+- `packages/@remotelist/ui`: Core React components
 - `packages/@remotelist/utils`: Shared React utilities
 - `packages/@remotelist/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/eslint-preset-acme`: ESLint preset
+- `packages/eslint-preset-remotelist`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Yarn Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-W` workspaces flag with `yarn add`.
 
@@ -70,7 +70,7 @@ tsup src/index.tsx --format esm,cjs --dts --external react
 
 ```json:remotelist-core/package.json
 {
-  "name": "@remotelist/core",
+  "name": "@remotelist/ui",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

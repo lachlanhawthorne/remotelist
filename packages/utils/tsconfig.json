@@ -1,5 +1,5 @@
 {
-  "extends": "../remotelist-tsconfig/react-library.json",
+  "extends": "@remotelist/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }
