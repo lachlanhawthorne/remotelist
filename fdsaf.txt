@@ -1,0 +1,46 @@
+- style the gridjs
+- style the filters
+- ssr search with active filters (change the url ?)
+- sort data ssr
+
+- build the dummy gridjs
+- next getServerSideProps get initial search data
+- cls = 0 okayyy
+
+- fix user context for supabase client / data-access
+- register page
+- sign in page
+- account page
+- listing page
+
+- select sources from account page
+  - seek / ethicaljobs / linkedin / etc.
+
+- saved jobs / searches
+- email notifications (find a tutorial)
+
+- footer
+
+how to get ssr on gridjs
+
+- getServerSideProps call to meilisearch
+- render a dummy component with the ssr data
+- once on client, useEffect to switch a state
+- render the real component with gridjs
+
+how to get job listings
+
+- supabase edge function (deno)
+- cron server (w/ postgres) [https://supabase.com/blog/2021/03/05/postgres-as-a-cron-server]
+- run web scraper tools
+- "normalise" / "match" data 
+- update existings records
+- insert new records
+- delete old records
+
+- astro
+- cypress e2e testing (?)
+
+deployment
+  - [astro] cloudflare workers
+  - [next] vercel 

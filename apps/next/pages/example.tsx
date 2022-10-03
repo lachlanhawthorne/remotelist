@@ -1,0 +1,1 @@
+export { ExampleScreen as default } from "@remotelist/app/features/example/screen";

@@ -11,3 +11,7 @@ dist-ssr
 server/dist
 public/dist
 storybook-static/
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp

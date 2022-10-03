@@ -1,0 +1,16 @@
+import { Account } from "./Account";
+import { render, screen } from "@testing-library/react";
+import { assert, test, describe, expect, it } from "vitest";
+import renderer from "react-test-renderer";
+
+const testRenderer = renderer.create(
+  <Account />
+);
+// @vitest-environment happy-dom
+describe("<Account/>", () => {
+  it("the title is visible", () => {
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+    // render(<Footer variant="primary" />);
+    // expect(screen.getByText(/hello/i)).toBeTruthy();
+  });
+});

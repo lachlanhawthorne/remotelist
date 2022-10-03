@@ -1,0 +1,1 @@
+export { JobListingScreen as default } from "@remotelist/app/features/job-listing/screen";

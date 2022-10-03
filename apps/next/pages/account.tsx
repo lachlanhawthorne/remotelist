@@ -1,0 +1,1 @@
+export { AccountScreen as default, getServerSideProps } from "@remotelist/app/features/account/screen";

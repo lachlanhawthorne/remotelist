@@ -1,0 +1,1 @@
+export { LocationScreen as default } from "@remotelist/app/features/location/screen";

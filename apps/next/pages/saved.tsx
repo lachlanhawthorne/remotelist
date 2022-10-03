@@ -1,0 +1,1 @@
+export { SavedScreen as default } from "@remotelist/app/features/saved/screen"

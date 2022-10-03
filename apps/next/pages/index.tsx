@@ -1,0 +1,1 @@
+export { HomeScreen as default } from "@remotelist/app/features/home/screen";
